@@ -7,7 +7,7 @@ install:
 
 
 before_script:
-  - ./node_modules/.bin/hexo +x gradlew 
+  - chmod +x ./node_modules/.bin/hexo 
  # - npm install -g gulp
 
 script:
