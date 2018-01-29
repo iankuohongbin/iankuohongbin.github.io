@@ -1,32 +1,36 @@
 title:
-  archive: Archiv
-  category: Kategorie
+  archive: Archive
+  category: Category
   tag: Tag
+  schedule: Schedule
 
 author: Author
 
 menu:
-  home: Startseite
-  archives: Archiv
-  categories: Kategorien
+  home: Home
+  archives: Archives
+  categories: Categories
   tags: Tags
-  about: Über
-  feed: RSS
-  search: Suche
+  about: About
+  search: Search
+  schedule: Schedule
+  sitemap: Sitemap
+  commonweal: Commonweal 404
 
 sidebar:
-  overview: Übersicht
-  toc: Inhaltsverzeichnis
+  overview: Overview
+  toc: Table of Contents
 
 post:
   created: Post created
+  modified: Post modified
   sticky: Sticky
-  posted: Veröffentlicht am
-  modified: Updated at
-  in: in
-  read_more: Weiterlesen
-  untitled: Unbenannt
-  toc_empty: Dieser Artikel hat kein Inhaltsverzeichnis
+  posted: Posted on
+  in: In
+  more: more
+  read_more: Read more
+  untitled: Untitled
+  toc_empty: This post does not have a Table of Contents
   visitors: Visitors
   wordcount: Words count in article
   min2read: Reading time
@@ -39,48 +43,51 @@ post:
       <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
 
 page:
-  totally: Gesamt
+  totally: Totally
   tags: tags
 
 footer:
-  powered: "Erstellt mit  %s"
+  powered: "Powered by %s"
   theme: Theme
 
 counter:
   tag_cloud:
-    zero: Keine Tags
-    one: Insgesamt ein Tag
-    other: "Insgesamt %d Tags"
+    zero: No tags
+    one: 1 tag in total
+    other: "%d tags in total"
 
   categories:
-    zero: Keine Kategorien
-    one: Insgesamt eine Kategorie
-    other: "Insgesamt %d Kategorien"
+    zero: No categories
+    one: 1 category in total
+    other: "%d categories in total"
 
   archive_posts:
-    zero: Keine Artikel vorhanden.
-    one: Ein Artikel.
-    other: "Insgesamt %d Artikel."
+    zero: No posts.
+    one: 1 post.
+    other: "%d posts in total."
 
 state:
-  posts: Artikel
-  pages: Seiten
-  tags: Tags
-  categories: Kategorien
+  posts: posts
+  pages: pages
+  tags: tags
+  categories: categories
+
+search:
+  placeholder: Searching...
 
 cheers:
-  um: Öhm..
+  um: Um..
   ok: OK
-  nice: Schön
-  good: Gut
-  great: Wunderbar
-  excellent: Exzellent
+  nice: Nice
+  good: Good
+  great: Great
+  excellent: Excellent
 
-keep_on: Bleib dran.
+keep_on: Keep on posting.
 
 symbol:
-  comma: '. '
-  period: ', '
+  comma: ', '
+  period: '. '
   colon: ':'
 
 reward:
@@ -88,3 +95,5 @@ reward:
   wechatpay: WeChat Pay
   alipay: Alipay
   bitcoin: Bitcoin
+
+gitmentbutton: Show comments from Gitment
