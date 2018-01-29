@@ -10,7 +10,7 @@ install:
  # - npm install -g gulp
 
 script:
-  - hexo g
+  - hexo generate
 
 after_script:
   - cd ./public
@@ -18,7 +18,7 @@ after_script:
   - git config user.name "iankuohongbin"
   - git config user.email "iankuohongbin@gmail.com"
   - git add .
-  - git commit -m "Update docs"
+  - git commit -m "Travis CI Auto Builder"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # E: Build LifeCycle
 
